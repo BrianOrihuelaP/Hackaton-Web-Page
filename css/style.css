@@ -1,0 +1,148 @@
+*{
+    font-family: 'Prompt', sans-serif;
+    /* background-color: #CAF0F8; */
+}
+
+/* Estilos navegador */
+
+  header nav {
+    display: flex;
+  }
+  
+  header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 20px;
+  }
+
+  .brand{
+      padding: 10px;
+      background-color: #023E8A;
+      margin: 4px;
+      border-radius: 12px;
+      margin-right: 70px;
+      color: azure;
+  }
+
+  .links{
+      background-color: #ADE8F4;
+      margin: 4px;
+      border-radius: 22px;
+      font-weight: 400;
+      color: #000000;
+      padding: 36px;
+  }
+  header nav .menu .links {
+    display: flex;
+    padding-right: 2px;
+  }
+
+  header nav .menu .links a {
+    padding: 16px 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 16px;
+    border-bottom: 2px solid transparent;
+    transition: border 0.3s;
+  }
+  header nav .menu .links a:hover {
+    border-bottom-color: #000000;
+    text-shadow: #a4cedf 4px 2px ;
+  }
+  header nav .menu .links a.active {
+    border-bottom-color: #4688dd;
+  }
+  
+/* Estilos navegador */
+
+
+/* Estilos pie de pagina */
+footer{
+    width: 100%;
+    padding: 1px;
+    background-image: url("./../media/olas.png");
+    background-size: cover;
+}
+
+.container_footer{
+    display: flex;/*Para que las columnas queden separadas*/
+    flex-wrap: wrap;/*para las columnas se pongas de bajo de otra*/
+    justify-content: space-between;/*Es la funcion para lo que este dentro de esa clase ocupe todo el ancho de la pantalla*/
+    max-width: 1200px;
+    margin: auto; /*para centrar el contenido*/
+    margin-top: 100px;
+}
+
+.box_footer{
+    display: flex;/*Para que los bloques queden separados*/
+    flex-direction: column;/*Esto es para que los bloques queden como columnas*/
+    padding: 40px;
+}
+
+.box_footer .logo img{
+    width: 180px;/*Tamaño de la imagen*/
+}
+
+.box_footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 17px;
+}
+.box_footer h2{
+    margin-bottom: 30px;/*Espaciado para los titulos y los links*/
+    color: #ffffff;
+    font-weight: 700;
+}
+.box_footer a{
+    margin-top: 20px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.box_footer a:hover{
+    opacity: 0.8;
+    color: white;
+}
+
+.box_footer a .redes{
+    width: 44px;
+    float: left;
+    margin-right: 7px;
+}
+
+.box_copyright{
+    max-width: 1200px;
+    margin: auto; 
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box_copyright p{
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.box_copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #000000;
+}
+
+.terms img{
+    width: 220px;
+}
+
+.terms img:hover{
+    box-shadow: 2px 2px 2px 1px rgba(233, 232, 232, 0.6);
+    border-radius: 16px;
+    padding: 4px;
+}
+/* Terminan los estilos del pie de pagina */
+
