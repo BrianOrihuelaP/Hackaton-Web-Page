@@ -6965,19 +6965,20 @@ label{
 .tituloPag{
   position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
   transform: translate(560px, -200px);/* MOVER EL FORMULARIO EN X E Y*/
-  font-size: 42px;
+  font-size: 18px;
+  font-style: italic;
   font-weight: 500;
   color: white;
   border-radius: 8px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
-  padding: 2px;
-  opacity: .6;
-  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  opacity: .8;
+  background-color: #03045E;
   border: none;
 }
 
 .tituloPag:hover {
-  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 2px 3px rgba(255, 255, 255, 0.7);
 }
 
 .lema{
