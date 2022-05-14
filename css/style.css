@@ -40,6 +40,7 @@
   }
 
   header nav .menu .links a {
+      
     padding: 16px 18px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -146,3 +147,201 @@ footer{
 }
 /* Terminan los estilos del pie de pagina */
 
+/* Estilos pagina AQUARIUM */
+video::-webkit-media-controls {
+    display: none;
+}
+
+.presentacionVid{
+    width: 74%;
+    margin-left: 50px;
+    border-radius: 12px;
+    box-shadow: 2px 6px 12px 1px rgba(20, 20, 20, 0.6);
+}
+
+ .submenu{
+    width: 20%;
+    float: right; /* Flotar las secciones del lado izquierdo */
+  }
+  .submenu a{
+    background-color: #00B4D8;
+    border-radius: 10px 0 10px 0;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block; /* Para que no se junte y ocupe su propia linea */
+  }
+
+  .title{
+      text-align: center;
+      font-weight: 500;
+  }
+
+  .submenu a:hover{
+    background-color: #33555c;
+  }
+
+  .info1{
+    margin: 50px;
+    width: 62%;
+    color: #03045E;
+    border-radius: 5px;
+    /*border:1px solid black; */
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 1px 0 6px rgba(23, 158, 221, 0.623);
+    float: right;
+  }
+  .info2{
+    margin: 50px;
+    width: 62%;
+    color: #03045E;
+    border-radius: 5px;
+    /*border:1px solid black; */
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 1px 0 6px rgba(23, 158, 221, 0.623);
+    float: left;
+  }
+
+  .imagen1{
+    float: left;
+    width: 20%;
+    border-radius: 20px;
+    margin: 25px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+
+  .imagen2{
+    width: 20%;
+    border-radius: 20px;
+    margin: 25px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    float: right;
+  }
+
+  .resalta{
+      font-weight: 500;
+      color: #3480e2;
+  }  
+
+  .Youtube{
+      margin-left: 60px;
+      width: 70%;
+  }
+
+  .divicion{
+      width: 100%;
+      margin-top: -10px;
+      border-radius: 12px;
+      opacity: .8;
+      height: 200px;
+  }
+/* Termina estilos pagina AQUARIUM */
+
+/*Aqui Empiza los estilos para la pagina Animales Marinos Extintos*/
+.fondofoca{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404),rgba(0, 0, 0, 0.404)),url("../media/foca.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 20%;
+}
+
+.escritura {
+    margin-left: 15%;
+   transform: translateY(-180%);
+}
+.letras {
+    
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    white-space: nowrap;
+    font-size: 5em;
+    color: #ffffff;
+    width: 80%;
+    border-right: 2px solid rgba(0, 0, 0, 0.87);
+    animation: animacionIntro 3s steps(23, end),
+        animacionBar 3s step-end infinite;
+}
+
+@keyframes animacionIntro {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes animacionBar {
+
+    0%,
+    100% {
+        border-color: rgba(0, 48, 204, 0.87);
+    }
+
+    50% {
+        border-color: rgba(0, 48, 204, 0.87);
+    }
+}
+@media (max-width: 700px) {
+    .escritura {
+        margin-left: 15%;
+       transform: translateY(-300%);
+    }
+    .letras {
+    
+        overflow: hidden;
+        font-family: Helvetica, sans-serif;
+        white-space: nowrap;
+        font-size: 2em;
+        color: #ffffff;
+        width: 95%;
+        border-right: 2px solid rgba(0, 0, 0, 0.87);
+        animation: animacionIntro 3s steps(23, end),
+            animacionBar 3s step-end infinite;
+    }
+    @keyframes animacionIntro {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 95%;
+        }
+    }
+}
+
+
+@media (max-width: 420px) {
+    .escritura {
+        margin-left: 14%;
+       transform: translateY(-200%);
+    }
+    .letras {
+    
+        overflow: hidden;
+        font-family: Helvetica, sans-serif;
+        white-space: nowrap;
+        font-size: 20px;
+        color: #ffffff;
+        width: 95%;
+        border-right: 2px solid rgba(0, 0, 0, 0.87);
+        animation: animacionIntro 3s steps(23, end),
+            animacionBar 3s step-end infinite;
+    }
+    @keyframes animacionIntro {
+        0% {
+            width: 0;
+        }
+    
+        100% {
+            width: 95%;
+        }
+    }
+}
+/*Aqui Termina los estilos para la pagina Animales Marinos Extintos*/
