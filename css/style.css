@@ -347,4 +347,17 @@ video::-webkit-media-controls {
 /*Aqui Termina los estilos para la pagina Animales Marinos Extintos*/
 
 /*Aqui comienza los estilos para la pagina de chat*/
+.cover{
+    height: 600px;
+    background-image: url("/media/Olasp.png");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+}
+
+.tran{
+    opacity: 0.5;
+  }
 /*Aqui termina los estilos par la pagina chat*/
