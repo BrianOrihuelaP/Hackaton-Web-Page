@@ -5,7 +5,7 @@ Pagina web diseñada y elaborada con el proposito de dar solución a las problem
 ***En crear conciencia en la gente acerca de lo que le hacemos al oceano juntos con los seres vivos en el, por eso en este hackaton desarrollaremos una solucion a una de tantas problematicas que existen.***
 
 # Problematica a resolver
-* Falta de informacion acerca de los animales marinos en *** peligro de extincion.***
+* Falta de informacion acerca de los animales marinos en ***peligro de extincion.***
 
 # Solucion
 - Herramientas:
