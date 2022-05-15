@@ -695,6 +695,7 @@ video::-webkit-media-controls {
     position: center;
     margin-left: 20%;
   }
+<<<<<<< HEAD
 /*Aqui termina los estilos par la pagina chat*/
 
 /* -------------------------- Estilos de la pagina prevencion -----------------------*/ 
@@ -925,3 +926,6 @@ video::-webkit-media-controls {
 }
 
 /* ------------------  Aquí termina Prevención  ---------------------- */
+=======
+/*Aqui termina los estilos para la pagina chat*/
+>>>>>>> 56b4feea9828b4bde099b4e32e750c24648347b3
