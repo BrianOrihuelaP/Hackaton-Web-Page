@@ -43,3 +43,18 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 
 ![Pagina Principal](/capturas/Apaquarium4.PNG)
 > Puedes Visualizar un video sobre el Oceano Pacifico
+
+### Especies en Mexico
+![Especies](/capturas/Apaquarium-especies1.PNG)
+> Sub pestaña en la pagina de Aquarium sobre las especies que se encuentran en Mexico.
+
+![Especies](/capturas/Apaquarium-especies2.PNG)
+> Video e Informacion sobre los arrecifes de coral que se encuntran en Mexico.
+
+![Especies](/capturas/Apaquarium-especies3.PNG)
+> Algunas especies nativas de Mexico
+
+![Especies](/capturas/Apaquarium-especies4.PNG)
+> Si das click sobre una de las imagenes te mostrara un poco de informacion de la especie.
+
+
