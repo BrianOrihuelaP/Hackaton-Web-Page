@@ -92,3 +92,17 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 ![Especies](/capturas/Apaquarium-prevencion5.PNG)
 > Como podemos empezar a hacer un cambio.
 
+### Especies Marinas Extintas.
+![Especies](/capturas/extintos1.PNG)
+> Pestaña con Informacion sobre las espcies extintas.
+
+![Especies](/capturas/extintos2.PNG)
+> Imagenes de las especies extintas.
+
+### Empresas.
+![Empresas](/capturas/empresas1.PNG)
+> Algunas empresas que realizan proyectos para restaurar un poco el ecosistema de los oceanos.
+
+### Chat-Bot
+![Chat](/capturas/chatbot0.PNG)
+> En esta pestaña podras realizar algunas preguntas que tengas o tambien si solo quieres saludar al chat.
