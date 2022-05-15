@@ -6957,7 +6957,7 @@ label{
 .HackLogo{
   width: 300px;
   position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
-  transform: translate(165%, -450%);/* MOVER EL FORMULARIO EN X E Y*/
+  transform: translate(165%, -360%);/* MOVER EL FORMULARIO EN X E Y*/
   border-radius: 10px;
   box-shadow: 6px 8px 3px black;
 }
@@ -7001,5 +7001,52 @@ label{
   font-size: 16px;
   color: aliceblue;
   font-weight: 100;
+}
+
+@media (max-width: 1200px){
+  .HackLogo{
+    width: 300px;
+    position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
+    transform: translate(130%, -360%);/* MOVER EL FORMULARIO EN X E Y*/
+    border-radius: 10px;
+    box-shadow: 6px 8px 3px black;
+  }
+
+  .tituloPag{
+    position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
+    transform: translate(220%, -200px);/* MOVER EL FORMULARIO EN X E Y*/
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    opacity: .8;
+    background-color: #03045E;
+    border: none;
+  }
+
+  .lema{
+    position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
+    transform: translate(136px, -320px);/* MOVER EL FORMULARIO EN X E Y*/
+    -webkit-animation: message-frames 1s ease 2s forwards;
+            animation: message-frames 1s ease 2s forwards;
+    opacity: 0;
+    font-size: 22px;
+    color: aliceblue;
+    font-weight: 200;
+  }
+  
+  .sabiasQue{
+    position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
+    transform: translate(130px, -400px);/* MOVER EL FORMULARIO EN X E Y*/
+    -webkit-animation: message-frames 1s ease 7s forwards;
+            animation: message-frames 1s ease 7s forwards;
+    opacity: 0;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: 100;
+  }
 }
 

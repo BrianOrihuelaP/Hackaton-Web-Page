@@ -9,6 +9,11 @@
     font-style: bold;
 }
 
+.item{
+    border-radius: 28px 8px;
+    box-shadow: 2px 2px 22px 1px rgba(233, 232, 232, 0.6);
+}
+
 .item-content > p{
     font-size: 20px;
 }
@@ -16,7 +21,7 @@
     margin: 0;
     width: 100%;
     height: auto;
-    background-color: #023E8A;
+    background-color: #023d8a9a;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;

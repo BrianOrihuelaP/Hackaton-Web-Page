@@ -19,7 +19,7 @@
 
   .brand{
       padding: 10px;
-      background-color: #023E8A;
+      background-color: #0077B6;
       margin: 4px;
       border-radius: 34px 6px;
       margin-right: 70px;
@@ -30,6 +30,7 @@
       font-style: italic;
       padding: 6px;
       margin:6px;
+      font-weight: 200;
   }
 
   .links{
@@ -46,7 +47,6 @@
   }
 
   header nav .menu .links a {
-      
     padding: 16px 18px;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -61,7 +61,117 @@
   header nav .menu .links a.active {
     border-bottom-color: #4688dd;
   }
-  
+
+  @media (max-width: 1280px){
+    .brand{
+        padding: 8px;
+        background-color: #0077B6;
+        margin: 4px;
+        border-radius: 34px 6px;
+        margin-right: 40px;
+        color: azure;
+        width: 16%;
+    }
+    .brand h1{
+        font-style: italic;
+        padding: 2px;
+        margin:6px;
+        font-weight: 200;
+    }
+    .links{
+        background-color: #ADE8F4;
+        margin: 0px;
+        border-radius: 34px 6px;
+        font-weight: 400;
+        color: #000000;
+        padding: 2%;
+    }
+  }
+
+  @media (max-width: 1180px){
+    .brand{
+        padding: 8px;
+        background-color: #0077B6;
+        margin: 4px;
+        border-radius: 34px 6px;
+        margin-right: 40px;
+        color: azure;
+        width: 8%;
+    }
+    .brand h1{
+        font-style: italic;
+        padding: 1%;
+        margin:0%;
+        margin-left: -2%;
+        font-weight: 200;
+    }
+    .links{
+        background-color: #ADE8F4;
+        margin: 0px;
+        border-radius: 34px 6px;
+        font-weight: 400;
+        color: #000000;
+        padding: 2%;
+        font-size: 14px;
+    }
+  }
+  @media (max-width: 1000px){
+    .brand{
+        padding: 8px;
+        background-color: #0077B6;
+        margin: 8px;
+        border-radius: 34px 6px;
+        margin-right: 40px;
+        color: azure;
+        width: 8%;
+    }
+    .brand h1{
+        font-style: italic;
+        padding: 1%;
+        margin:0%;
+        margin-left: -2%;
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .links{
+        background-color: #ADE8F4;
+        margin: 0px;
+        border-radius: 34px 6px;
+        font-weight: 400;
+        color: #000000;
+        padding: 2%;
+        font-size: 10px;
+    }
+  }
+
+  @media (max-width: 800px){
+    .brand{
+        padding: 8px;
+        background-color: #0077B6;
+        margin: 8px;
+        border-radius: 34px 6px;
+        margin-right: 40px;
+        color: azure;
+        width: 8%;
+    }
+    .brand h1{
+        font-style: italic;
+        padding: 1%;
+        margin:0%;
+        margin-left: -2%;
+        font-weight: 200;
+        font-size: 12px;
+    }
+    .links{
+        background-color: #ADE8F4;
+        margin: 0px;
+        border-radius: 34px 6px;
+        font-weight: 400;
+        color: #000000;
+        padding: 2%;
+        font-size: 8px;
+    }
+  }
 /* Estilos navegador */
 
 
@@ -120,7 +230,7 @@ footer{
 .box_footer a .redes{
     width: 44px;
     float: left;
-    margin-right: 7px;
+    margin-right: 2%;
 }
 
 .box_copyright{
@@ -171,17 +281,19 @@ video::-webkit-media-controls {
   }
   .submenu a{
     background-color: #48CAE4;
-    border-radius: 10px 0 10px 0;
+    border-radius: 20px 10px;
     margin: 10px;
     color: white;
     padding: 10px;
     text-decoration: none;
+    box-shadow: 2px 6px 8px 1px rgba(20, 20, 20, 0.6);
     display: block; /* Para que no se junte y ocupe su propia linea */
   }
 
   .title{
       text-align: center;
       font-weight: 500;
+      font-style: italic;
   }
 
   .submenu a:hover{
@@ -189,7 +301,7 @@ video::-webkit-media-controls {
   }
 
   .info1{
-    margin: 50px;
+    margin: 3%;
     width: 62%;
     color: #03045E;
     border-radius: 5px;
@@ -200,7 +312,7 @@ video::-webkit-media-controls {
     float: right;
   }
   .info2{
-    margin: 50px;
+    margin: 3%;
     width: 62%;
     color: #03045E;
     border-radius: 5px;
@@ -212,7 +324,7 @@ video::-webkit-media-controls {
   }
 
   .info3{
-    margin: 50px;
+    margin: 3%;
     width: 92%;
     color: #03045E;
     border-radius: 5px;
@@ -272,6 +384,7 @@ video::-webkit-media-controls {
 
   .generalEspecies{
       width: 99%;
+      height: 4%;
       border-radius: 20px;
       margin-left: 3%;
   }
@@ -322,15 +435,17 @@ video::-webkit-media-controls {
 
 .descEspecie{
     margin-left: 5%;
-    font-size: 22px;
-    color: white;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
 }
 
 .imagenPecera{
-   width: 18%;
-   margin-top: 10px;
-    margin-left: 340px;
+   width: 40%;
+   margin-top: 0px;
+    margin-left: 30%;
     border-radius: 50%;
+    border: 4px dashed rgb(49, 167, 214);
+    box-shadow: 1px 8px 40px rgba(50, 113, 143, 0.74);
 }
   
 /* Termina estilos pagina AQUARIUM */
@@ -341,6 +456,7 @@ video::-webkit-media-controls {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 15%;
+    margin-top: -4%;
 }
 
 .escritura {
@@ -680,20 +796,27 @@ video::-webkit-media-controls {
 /*Aqui Termina los estilos para la pagina Animales Marinos Extintos*/
 
 /*Aqui comienza los estilos para la pagina de chat*/
-.cover{
-    height: 600px;
-    background-image: url("/media/Olasp.png");
-    color: white;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(55, 177, 199, 0.5);
-    background-blend-mode: darken;
-}
+
 
 .tran{
     opacity: 0.8;
     position: center;
-    margin-left: 20%;
+    margin-left: 18%;
+  }
+
+  .chatBotter{
+      border: 4px solid #0076b6cb;
+      border-radius: 26px;
+      width: 96%;
+      padding: 10px;
+      opacity: .9;
+      box-shadow: 12px 12px 2px 1px rgba(21, 91, 182, 0.342);
+      background-image: url("https://eskipaper.com/images/ocean-wallpaper-5.jpg");
+  }
+
+  .chatBotter h1, h3, li{
+      color: #f1f4f5;
+      opacity: 1;
   }
 /*Aqui termina los estilos par la pagina chat*/
 
@@ -708,7 +831,7 @@ video::-webkit-media-controls {
 }
 
 .titulo{
-    color:#023E8A;
+    color:#03045E;
     font-size: 30px;
     text-align: center;
     margin-top: 60px;
@@ -717,7 +840,7 @@ video::-webkit-media-controls {
 #header-prevencion{
     width: 100%;
     height: 600px;
-    background: #023E8A; 
+    background: #7F7FD5; 
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(176, 68%, 74%, 0.626), hsla(219, 67%, 72%, 0.607), hsla(240, 51%, 67%, 0.603)), url(./../media/portada-prevencion.jpeg);  
     /* Chrome 10-25, Safari 5.1-6 */
@@ -759,10 +882,6 @@ video::-webkit-media-controls {
     text-align: justify;
 }
 
-
-
-
-
 /* pagina prevencion tips */
 
 .contenido-textos {
@@ -780,10 +899,11 @@ video::-webkit-media-controls {
 
 .contenido-textos h3 {
     margin-bottom: 15px;
+    color: #0077B6;
 }
 
 .contenido-textos h3 span {
-    background: #023E8A;
+    background: #0077B6;
     color: #fff;
     border-radius: 60%;
     display: inline-block;
@@ -837,7 +957,7 @@ video::-webkit-media-controls {
     height: 100%;
     top: 0;
     transform: scale(1);
-    background: #023E8A;
+    background: hsla(217, 76%, 39%, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -917,6 +1037,7 @@ video::-webkit-media-controls {
 
 .final-ind h3 {
     margin: 10px 0;
+    color: black
 }
 
 .final-ind p {

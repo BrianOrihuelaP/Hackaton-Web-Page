@@ -24,11 +24,9 @@
                 </div>
 
                 <div class="links">
-                    <li>
-                        <a href="../pages/aquarium.html" class="active">AQUARIUM</a>
-                    </li>
+                    <li><a href="/pages/aquarium.html" class="active">AQUARIUM</a></li>
                     <li><a href="/pages/animalesMarinosExtintos.html">ESPECIES EXTINTAS</a></li>
-                    <li><a href="#">EMPRESAS COMPROMETIDAS</a></li>
+                    <li><a href="/pages/empresas.html">EMPRESAS COMPROMETIDAS</a></li>
                     <li><a href="/pages/CHAT-BOT.html">CHAT-BOT</a></li>
                     <li><a href="#"></a></li>
                 </div>
@@ -42,7 +40,7 @@
         <p class="title">ESPECIES</p>
         <a href="especiesMexico.html">México</a>
         <a href="especiesMundo.html">Mundo entero</a>
-        <a href="#">Prevenir la extinción</a>
+        <a href="/pages/prevencion.html">Prevenir la extinción</a>
     </div>
 
     <section class="info3">
@@ -131,118 +129,96 @@
     <img src="/media/wave.png" alt="" class="divicion" />
 
     <section class="info3">
-        <h2>Flora y Fauna de nuestro Mundo</h2>
-        <p></p>
+        <h2>Flora y fauna de nuestro mundo</h2>
+        <p>
         <div class="generalEspecies">
-            <a href="pecera.html" target="marco" id="totoaba">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/88453/TOTOABAPTD.jpg" class="Especies"
-                    alt="" /></a>
-            <a href="pecera.html" target="marco" id="vMarina">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/87845/VQTMptd.jpg" class="Especies"
-                    alt="" />
+            <a onclick="ballena()" target="marco" >
+                <img src="http://www.ballenaswiki.com/Imagenes/ballena-franca-austral-eubalaena-australis.jpg" class="Especies"
+                    alt=""></a>
+            <a onclick="delfin()" target="marco">
+                <img src="https://www.bioenciclopedia.com/wp-content/uploads/2011/12/delfin-nariz-botella3-800.jpg" class="Especies" alt="">
             </a>
-            <a href="pecera.html" target="marco">
+            <a target="marco" onclick="orca()">
                 <img id="cangrejo"
-                    src="https://www.elsoldecuernavaca.com.mx/local/37kevj-buscan-elaborar-una-estrategia-para-la-conservacion-del-cangrejo-barranqueno-archivo/ALTERNATES/LANDSCAPE_1140/Buscan%20elaborar%20una%20estrategia%20para%20la%20conservaci%C3%B3n%20del%20cangrejo%20barranque%C3%B1o%20-%20Archivo"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" target="marco">
+                    src="https://www.lareserva.com/sites/default/files/styles/related_articles/public/wall/orcamini.jpg?itok=0hTn9GQe"
+                    class="Especies" alt=""></a>
+            <a target="marco" onclick="calamar()">
                 <img id="calamarG" src="https://i.ytimg.com/vi/wnDWvGks5mc/maxresdefault.jpg" class="Especies"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" id="tortugaCarey" target="marco">
+                    class="Especies" alt=""></a>
+            <a id="tortugaCarey" target="marco" onclick="tortuga()">
                 <img src="https://definicionesyconceptos.com/wp-content/uploads/2021/04/Tortuga-carey-Eretmochelys-imbricata-Tortugas.jpg"
-                    class="Especies" alt="" /></a>
+                    class="Especies" alt=""></a>
+        </div>
+        <!-- 2. APARTADO DE LAS IMAGENES CON FUNCIONES -->
+        <div class="generalEspecies">
+            <a onclick="manatie()" target="marco" >
+                <img src="https://www.bioenciclopedia.com/wp-content/uploads/2011/11/manati-800.jpg" class="Especies"
+                    alt=""></a>
+            <a onclick="calderon()" target="marco">
+                <img src="https://asociaciontonina.com/wp-content/uploads/2014/04/Grampus-web1.jpg" class="Especies" alt="">
+            </a>
+            <a target="marco" onclick="tiburon()">
+                <img 
+                    src="https://cram.org/wp-content/uploads/2019/09/tiburon-blanco-white-shark-6.jpg"
+                    class="Especies" alt=""></a>
+            <a target="marco" onclick="espada()">
+                <img id="calamarG" src="https://universomarino.com/wp-content/uploads/2013/01/pez-espada.jpg" class="Especies"
+                    class="Especies" alt=""></a>
+            <a id="tortugaCarey" target="marco" onclick="tortuga2()">
+                <img src="https://fundacion-biodiversidad.es/sites/default/files/noticias/_67.jpg"
+                    class="Especies" alt=""></a>
         </div>
 
-        <div class="generalEspeciesText">
-            <h3>Pez Totoaba</h3>
-            <h3>Vaquita marina</h3>
-            <h3>Cangrejo Barranquillero</h3>
-            <h3 class="fix">Calamar gigante (Humboldt)</h3>
-            <h3>Tortuga Carey</h3>
-        </div>
         <div class="generalEspecies">
-            <a href="pecera.html" target="marco" id="totoaba">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/88453/TOTOABAPTD.jpg" class="Especies"
-                    alt="" /></a>
-            <a href="pecera.html" target="marco" id="vMarina">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/87845/VQTMptd.jpg" class="Especies"
-                    alt="" />
+            <a onclick="nemo()" target="marco" >
+                <img src="https://t1.uc.ltmcdn.com/es/posts/6/0/9/como_cuidar_a_un_pez_payaso_32906_orig.jpg" class="Especies"
+                    alt=""></a>
+            <a onclick="dory()" target="marco">
+                <img src="https://www.prensalibre.com/wp-content/uploads/2018/12/d84f9510-25ef-40b2-be28-38c086a4fa38.jpg?quality=52" class="Especies" alt="">
             </a>
-            <a href="pecera.html" target="marco">
-                <img id="cangrejo"
-                    src="https://www.elsoldecuernavaca.com.mx/local/37kevj-buscan-elaborar-una-estrategia-para-la-conservacion-del-cangrejo-barranqueno-archivo/ALTERNATES/LANDSCAPE_1140/Buscan%20elaborar%20una%20estrategia%20para%20la%20conservaci%C3%B3n%20del%20cangrejo%20barranque%C3%B1o%20-%20Archivo"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" target="marco">
-                <img id="calamarG" src="https://i.ytimg.com/vi/wnDWvGks5mc/maxresdefault.jpg" class="Especies"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" id="tortugaCarey" target="marco">
-                <img src="https://definicionesyconceptos.com/wp-content/uploads/2021/04/Tortuga-carey-Eretmochelys-imbricata-Tortugas.jpg"
-                    class="Especies" alt="" /></a>
+            <a target="marco" onclick="copper()">
+                <img 
+                    src="https://reefbuilders.com/wp-content/blogs.dir/1/files/2020/06/copperband-butterflyfish1.jpg"
+                    class="Especies" alt=""></a>
+            <a target="marco" onclick="centropy()">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaT8up5r3JtN9mX6ODCTgp7TGDke6bf7eWxoEE_1R5dnLG8j-2efU_lwqrntxcyrjSgnI&usqp=CAU" class="Especies"
+                    class="Especies" alt=""></a>
+            <a id="tortugaCarey" target="marco" onclick="dottyback()">
+                <img src="https://www.whitecorals.com/media/images/org/pseudochromis-fridmani-koenig-salomon-zwergbarsch.jpg"
+                    class="Especies" alt=""></a>
         </div>
 
-        <div class="generalEspeciesText">
-            <h3>Pez Totoaba</h3>
-            <h3>Vaquita marina</h3>
-            <h3>Cangrejo Barranquillero</h3>
-            <h3 class="fix">Calamar gigante (Humboldt)</h3>
-            <h3>Tortuga Carey</h3>
-        </div>
         <div class="generalEspecies">
-            <a href="pecera.html" target="marco" id="totoaba">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/88453/TOTOABAPTD.jpg" class="Especies"
-                    alt="" /></a>
-            <a href="pecera.html" target="marco" id="vMarina">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/87845/VQTMptd.jpg" class="Especies"
-                    alt="" />
+            <a onclick="alga()" target="marco" >
+                <img src="https://www.aquariumbcn.com/wp-content/uploads/2017/03/plantas-y-algas-marinas.jpg" class="Especies"
+                    alt=""></a>
+            <a onclick="plancton()" target="marco">
+                <img src="https://concepto.de/wp-content/uploads/2019/04/plancton-e1555286893100-800x400.jpg" class="Especies" alt="">
             </a>
-            <a href="pecera.html" target="marco">
-                <img id="cangrejo"
-                    src="https://www.elsoldecuernavaca.com.mx/local/37kevj-buscan-elaborar-una-estrategia-para-la-conservacion-del-cangrejo-barranqueno-archivo/ALTERNATES/LANDSCAPE_1140/Buscan%20elaborar%20una%20estrategia%20para%20la%20conservaci%C3%B3n%20del%20cangrejo%20barranque%C3%B1o%20-%20Archivo"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" target="marco">
-                <img id="calamarG" src="https://i.ytimg.com/vi/wnDWvGks5mc/maxresdefault.jpg" class="Especies"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" id="tortugaCarey" target="marco">
-                <img src="https://definicionesyconceptos.com/wp-content/uploads/2021/04/Tortuga-carey-Eretmochelys-imbricata-Tortugas.jpg"
-                    class="Especies" alt="" /></a>
+            <a target="marco" onclick="pardas()">
+                <img 
+                    src="https://personal.us.es/zarco/carromzar/Botanica_I/Fotos_Botanica_I/Dictyota_dichotoma2.jpg"
+                    class="Especies" alt=""></a>
+            <a target="marco" onclick="patricio()">
+                <img src="https://okdiario.com/img/2018/10/07/estrella-de-mar.jpg" class="Especies"
+                    class="Especies" alt=""></a>
+            <a id="tortugaCarey" target="marco" onclick="bob()">
+                <img src="https://s3.amazonaws.com/businessinsider.mx/wp-content/uploads/2021/07/29114209/Bob-Esponja-1280x620.jpg"
+                    class="Especies" alt=""></a>
         </div>
 
-        <div class="generalEspeciesText">
-            <h3>Pez Totoaba</h3>
-            <h3>Vaquita marina</h3>
-            <h3>Cangrejo Barranquillero</h3>
-            <h3 class="fix">Calamar gigante (Humboldt)</h3>
-            <h3>Tortuga Carey</h3>
-        </div>
-        <div class="generalEspecies">
-            <a href="pecera.html" target="marco" id="totoaba">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/88453/TOTOABAPTD.jpg" class="Especies"
-                    alt="" /></a>
-            <a href="pecera.html" target="marco" id="vMarina">
-                <img src="https://www.gob.mx/cms/uploads/article/main_image/87845/VQTMptd.jpg" class="Especies"
-                    alt="" />
-            </a>
-            <a href="pecera.html" target="marco">
-                <img id="cangrejo"
-                    src="https://www.elsoldecuernavaca.com.mx/local/37kevj-buscan-elaborar-una-estrategia-para-la-conservacion-del-cangrejo-barranqueno-archivo/ALTERNATES/LANDSCAPE_1140/Buscan%20elaborar%20una%20estrategia%20para%20la%20conservaci%C3%B3n%20del%20cangrejo%20barranque%C3%B1o%20-%20Archivo"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" target="marco">
-                <img id="calamarG" src="https://i.ytimg.com/vi/wnDWvGks5mc/maxresdefault.jpg" class="Especies"
-                    class="Especies" alt="" /></a>
-            <a href="pecera.html" id="tortugaCarey" target="marco">
-                <img src="https://definicionesyconceptos.com/wp-content/uploads/2021/04/Tortuga-carey-Eretmochelys-imbricata-Tortugas.jpg"
-                    class="Especies" alt="" /></a>
-        </div>
 
-        <div class="generalEspeciesText">
-            <h3>Pez Totoaba</h3>
-            <h3>Vaquita marina</h3>
-            <h3>Cangrejo Barranquillero</h3>
-            <h3 class="fix">Calamar gigante (Humboldt)</h3>
-            <h3>Tortuga Carey</h3>
-        </div>
-        <iframe src="" class="despliegueEspecies" name="marco" frameborder="2"></iframe>
+
+        <br>
+        <!-- ELEMENTOS CAMBIANTES -->
+        <img src="https://64.media.tumblr.com/d56c2b8d17dd0b2943273a535a0e1c25/tumblr_ou5v9wS6Uz1uhjffgo1_500.gifv" id="imagenPecera" class="imagenPecera" alt="">
+        <h2 id="nombreEspecie">Especie</h2>
+        <h2 class="descEspecie" id="descEspecie">Haga clic en una imagen para la descripcion de la especie</h2>
+        <aside>
+            <p>Informacion recogida de: expertoanimal.com</p>
+        </aside>
     </section>
+
 
     <footer>
         <div class="container_footer">
@@ -256,13 +232,12 @@
             </div>
             <div class="box_footer">
                 <h2>Colaboradores</h2>
-                <a href="#">Launch X</a>
-
-                <a href="https://github.com/AntonioRValdivia">AntonioRValdivia</a>
-                <a href="https://github.com/BrianOrihuelaP">BrianOrihuelaP</a>
-                <a href="https://github.com/FelipeReyesMi">FelipeReyes</a>
-                <a href="https://github.com/GabrielSamano">GabrielSamano</a>
-                <a href="https://github.com/hA1nn-dot">Haim</a>
+                <a href="https://github.com/LaunchX-InnovaccionVirtual" target="_blank">Launch X</a>
+                <a href="https://github.com/AntonioRValdivia" target="_blank">AntonioRValdivia</a>
+                <a href="https://github.com/BrianOrihuelaP" target="_blank">BrianOrihuelaP</a>
+                <a href="https://github.com/FelipeReyesMi" target="_blank">FelipeReyes</a>
+                <a href="https://github.com/GabrielSamano" target="_blank">GabrielSamano</a>
+                <a href="https://github.com/hA1nn-dot" target="_blank">Haim</a>
             </div>
             <div class="box_footer">
                 <h2>Redes Sociales</h2>
@@ -293,6 +268,7 @@
             </p>
         </div>
     </footer>
+    <script src="/js/app/descripcion.js"></script>
 </body>
 
 </html>

@@ -7,17 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<<<<<<< HEAD
     <link
         href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="css/estilosVistaBienvenida.css" />
     <link rel="icon" href="media/icon.png">
-=======
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="css/estilosVistaBienvenida.css" />
-    <link rel="icon" href="media/icon.png">
->>>>>>> 47aa977913ced5055fad68eacee0400829dd985a
     <title>Bienvenido - AQUARIUM</title>
 </head>
 
@@ -25,7 +19,7 @@
     <div class="container">
         <img class="background" src="https://images.pling.com/img/00/00/49/41/10/1226771/183cc3b6fb85d7e04e7f55b62e59bb4f2188.jpg" />
         <p class="message">
-            Desarrollado por: *****</b>
+            Desarrollado por <i>Los Borbotones</i> para LaunchX</b>
         </p>
         <div class="circle-container">
             <div class="circle"></div>
@@ -347,9 +341,9 @@
 
         boton.addEventListener("click", () => {
             setTimeout( 
-                                        function() {
-                                            window.location.href = "./pages/aquarium.html";
-                                        }, 2000 );
+                            function() {
+                                window.location.href = "./pages/aquarium.html";
+                            }, 2000 );
             let etiquetaAudio = document.createElement("audio")
             etiquetaAudio.setAttribute("src", "media/sonido burbujas de agua.mp3")
             etiquetaAudio.play()
