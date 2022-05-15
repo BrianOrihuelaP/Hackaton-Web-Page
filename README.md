@@ -31,4 +31,4 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 # Fase 3) Estructura de la pagina
 # Fase 4) Arquitectura de la pagina
 # Fase 5) Muestras de la pagina 
-![Pagina](/capturas/Apaquarium.PNG)
+![Pagina Principal](/capturas/Apaquarium1.PNG)
