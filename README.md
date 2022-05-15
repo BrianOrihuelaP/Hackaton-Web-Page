@@ -15,7 +15,7 @@ Una pagina web estática junto con un bot para brindar a los usuarios informaci�
 - - Github
 - - Miro
 - - Node Js
-
+- Palette Coloors
 
 # Fase 1) LLuvia de ideas con la plataforma [Miro](https://miro.com/es/)
 En esta fase se muestra la fomentación de ideas con respecto a la problematica. Cada actividad en rojo muestra una pagina dentro de la pagina principal y cada actividad se divide en subtareas más pequeñas con el proposito de mostrar las funciones que cumplen cada pagina. Cada miembro del equipo se le asignó una actividad en especifico para el cumplimiento de los requermientos de los cuales se mecionarán a continuación.<br><br>
@@ -26,6 +26,9 @@ En esta fase se muestra la fomentación de ideas con respecto a la problematica.
 # Fase 3) Buyer Persona
 # Fase 4) Target Audience
 # Fase 5) Paleta de Colores
+Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utilizar y es en base al la temática del oceano, por lo que el equipo optó por usar la siguiente paleta de colores para el diseño de las paginas.
+![image](https://user-images.githubusercontent.com/48420854/168480094-d472aa3a-d7c5-41c4-bdc2-ff0431e226a9.png)
+
 # Fase 6) Estrucutura de la pagina
 # Fase 7) Arquitectura de la pagina
 # Fase 8) Muestras de la pagina 
