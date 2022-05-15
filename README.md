@@ -24,13 +24,10 @@ En esta fase se muestra la fomentación de ideas con respecto a la problematica.
 ***Lluvia de Ideas para la solución de Hack the Ocean***
 ![image](https://user-images.githubusercontent.com/48420854/168479799-a41b5edd-2e7b-4ef4-9f53-99628231bc3f.png)
 
-# Fase 2) Levantamiento de requimientos
-# Fase 3) Buyer Persona
-# Fase 4) Target Audience
-# Fase 5) Paleta de Colores
+# Fase 2) Paleta de Colores
 Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utilizar y es en base al la temática del oceano, por lo que el equipo optó por usar la siguiente paleta de colores para el diseño de las paginas.
 ![image](https://user-images.githubusercontent.com/48420854/168480094-d472aa3a-d7c5-41c4-bdc2-ff0431e226a9.png)
 
-# Fase 6) Estrucutura de la pagina
-# Fase 7) Arquitectura de la pagina
-# Fase 8) Muestras de la pagina 
+# Fase 3) Estrucutura de la pagina
+# Fase 4) Arquitectura de la pagina
+# Fase 5) Muestras de la pagina 
