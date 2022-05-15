@@ -1,8 +1,10 @@
 # Hackaton-Web-Page
 Pagina web diseñada y elaborada con el proposito de dar solución a las problematicas del hack the ocean
-# En que consiste hack the Ocean?
+# En que consiste Hack the Ocean?
+Durante la finalización de LaunchX se nos enseñaron soluciones escalables y optimas con lenguajes de programacion web tanto front end como back end, Hack the Ocean es un reto implementada por el equipo de Innovaccion para demostrar las habilidades aprendidas durante todo el programa.
+<br>
+La temática que aborda Hack the Ocean es crear conciencia en la gente acerca de lo que le hacemos al oceano juntos con los seres vivos en el, por eso en este hackaton desarrollaremos una solucion a una de tantas problematicas que existen.
 
-***En crear conciencia en la gente acerca de lo que le hacemos al oceano juntos con los seres vivos en el, por eso en este hackaton desarrollaremos una solucion a una de tantas problematicas que existen.***
 
 # Problematica a resolver
 -  Falta de informacion acerca de los animales marinos en ***peligro de extincion.***
