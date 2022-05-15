@@ -33,7 +33,7 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 > Diagrama que muestra un poco la estructura de la pagina web.
 
 # Fase 4) Arquitectura de la pagina
-* La arquitectura de la pagina se realizo con ayuda de:
+- La arquitectura de la pagina se realizo con ayuda de:
 -- Azure.
 
 
