@@ -26,9 +26,9 @@
 
                 <div class="links">
                     <li><a href="../pages/aquarium.html" class="active">AQUARIUM</a></li>
-                    <li><a href="#">ESPECIES EXTINTAS</a></li>
-                    <li><a href="#">EMPRESAS COMPROMETIDAS</a></li>
-                    <li><a href="#">CHAT-BOT</a></li>
+                    <li><a href="/pages/animalesMarinosExtintos.html">ESPECIES EXTINTAS</a></li>
+                    <li><a href="/pages/animalesMarinosExtintos.html">EMPRESAS COMPROMETIDAS</a></li>
+                    <li><a href="/pages/CHAT-BOT.html">CHAT-BOT</a></li>
                     <li><a href="#"></a></li>
                 </div>
             </div>
@@ -81,7 +81,7 @@
         <h2>Especies nativas de México</h2>
         <p>
         <div class="generalEspecies">
-            <a href="pecera.html" target="marco" id="totoaba">
+            <a href="pecera.html" onclick="sendID()" target="marco" >
                 <img src="https://www.gob.mx/cms/uploads/article/main_image/88453/TOTOABAPTD.jpg" class="Especies"
                     alt=""></a>
             <a href="pecera.html" target="marco" id="vMarina">
@@ -160,6 +160,7 @@
             </p>
         </div>
     </footer>
+    <script type="module" src="/js/app/services/especieMexServices.js"></script>
 </body>
 
 </html>

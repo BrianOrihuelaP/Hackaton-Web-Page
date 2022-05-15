@@ -21,7 +21,7 @@
       padding: 10px;
       background-color: #023E8A;
       margin: 4px;
-      border-radius: 12px;
+      border-radius: 34px 6px;
       margin-right: 70px;
       color: azure;
   }
@@ -35,7 +35,7 @@
   .links{
       background-color: #ADE8F4;
       margin: 4px;
-      border-radius: 22px;
+      border-radius: 34px 6px;
       font-weight: 400;
       color: #000000;
       padding: 32px;
@@ -50,7 +50,7 @@
     padding: 16px 18px;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    border-radius: 16px;
+    border-radius: 16px ;
     border-bottom: 2px solid transparent;
     transition: border 0.3s;
   }
@@ -321,15 +321,15 @@ video::-webkit-media-controls {
 }
 
 .descEspecie{
-    margin-left: 19%;
+    margin-left: 5%;
     font-size: 22px;
     color: white;
 }
 
 .imagenPecera{
    width: 18%;
-   margin-top: 100px;
-    margin-left: 380px;
+   margin-top: 10px;
+    margin-left: 340px;
     border-radius: 50%;
 }
   
@@ -337,25 +337,24 @@ video::-webkit-media-controls {
 
 /*Aqui Empiza los estilos para la pagina Animales Marinos Extintos*/
 .fondofoca {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("../media/foca.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("https://cumbrepuebloscop20.org/wp-content/uploads/2018/06/domi-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 20%;
+    padding-top: 15%;
 }
 
 .escritura {
-    margin-left: 15%;
+    margin-left: 30%;
     transform: translateY(-180%);
 }
 
 .letras {
 
     overflow: hidden;
-    font-family: Helvetica, sans-serif;
     white-space: nowrap;
-    font-size: 5em;
+    font-size: 3em;
     color: #ffffff;
-    width: 90%;
+    width: 73%;
     border-right: 2px solid rgba(0, 0, 0, 0.87);
     animation: animacionIntro 3s steps(23, end),
         animacionBar 3s step-end infinite;
@@ -367,7 +366,7 @@ video::-webkit-media-controls {
     }
 
     100% {
-        width: 90%;
+        width: 73%;
     }
 }
 
@@ -392,34 +391,37 @@ video::-webkit-media-controls {
 
 .apartado {
     background: linear-gradient(rgba(71, 71, 71, 0.363), rgba(0, 0, 0, 0.404)), #028dff;
-    padding-top: 10%;
+    padding-top: 12%;
 }
 
 .apartado2 {
     background: linear-gradient(rgba(71, 71, 71, 0.363), rgba(0, 0, 0, 0.404)), #029aff;
-    padding-top: 11%;
+    padding-top: 12%;
 }
 
-.centro,
+.centro{
+    font-size: 20px;
+    color: #f8f8f8;
+    font-weight: 400;
+    transform: translateY(-140px);
+}
 .centro2 {
     font-size: 20px;
     color: #f8f8f8;
     font-weight: 400;
-    transform: translateY(-130px);
+    transform: translateY(-150px);
 
 }
 
 .centro p {
     padding-top: 5%;
-    padding-left: 46%;
+    padding-left: 40%;
     text-align: justify;
-    font-family: 'Prompt', sans-serif;
 }
 
 .centro2 p {
     padding-top: 5%;
     text-align: justify;
-    font-family: 'Prompt', sans-serif;
 }
 
 .centro img {
@@ -433,15 +435,27 @@ video::-webkit-media-controls {
     padding-left: 1%;
 }
 .animales{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   text-align: center;
-   padding-top: 5%;
-
+    display: flex;
+    /*Para que las columnas queden separadas*/
+    flex-wrap: wrap;
+    /*para las columnas se pongas de bajo de otra*/
+    justify-content: space-between;
+    /*Es la funcion para lo que este dentro de esa clase ocupe todo el ancho de la pantalla*/
+    max-width: 1200px;
+    margin: auto;
+    /*para centrar el contenido*/
+    margin-top: 100px;
+}
+.container_animals{
+    display: flex;
+    /*Para que los bloques queden separados*/
+    flex-direction: column;
+    /*Esto es para que los bloques queden como columnas*/
+    padding: 30px;
 }
 
 .container_animals img{
-    width: 85%;
+    width: 500px;
     height: 280px;
     border-radius: 15px;
 }
@@ -452,29 +466,26 @@ video::-webkit-media-controls {
     font-weight: 500;
     font-size: 20px;
     text-decoration: none;
+    text-align: center;
 }
 .container_animals a:hover{
     color: #028dff;
 }
 
 
-
-
-
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
     .escritura {
         margin-left: 15%;
-        transform: translateY(-100%);
+        transform: translateY(-150%);
     }
 
     .letras {
 
         overflow: hidden;
-        font-family: Helvetica, sans-serif;
         white-space: nowrap;
-        font-size: 2em;
+        font-size: 3.5em;
         color: #ffffff;
-        width: 95%;
+        width:78%;
         border-right: 2px solid rgba(0, 0, 0, 0.87);
         animation: animacionIntro 3s steps(23, end),
             animacionBar 3s step-end infinite;
@@ -486,7 +497,7 @@ video::-webkit-media-controls {
         }
 
         100% {
-            width: 95%;
+            width: 78%;
         }
     }
 
@@ -499,28 +510,30 @@ video::-webkit-media-controls {
 
 }
 .centro p {
-    transform: translateY(-80px);
+    transform: translateY(-130px);
     padding-left: 46%;
     text-align: justify;
-    font-family: 'Prompt', sans-serif;
 }
 
 .centro2 p {
-    transform: translateY(-80px);
+    transform: translateY(-120px);
     text-align: justify;
-    font-family: 'Prompt', sans-serif;
+}
+.centro img {
+    float: left;
+    width: 45%;
+    transform: translateY(-90px);
 }
 .centro2 img {
     float: right;
     width: 50%;
     padding-left: 1%;
-    transform: translateY(-50px);
+    transform: translateY(-110px);
 }
 .animales{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    text-align: center;
-   padding-top: 5%;
 
 }
 .container_animals img{
@@ -531,7 +544,72 @@ video::-webkit-media-controls {
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 700px) {
+    .escritura {
+        margin-left: 15%;
+        transform: translateY(-160%);
+    }
+
+    .letras {
+
+        overflow: hidden;
+        font-family: Helvetica, sans-serif;
+        white-space: nowrap;
+        font-size: 2em;
+        color: #ffffff;
+        width: 78%;
+        border-right: 2px solid rgba(0, 0, 0, 0.87);
+        animation: animacionIntro 3s steps(23, end),
+            animacionBar 3s step-end infinite;
+    }
+
+    @keyframes animacionIntro {
+        0% {
+            width: 0;
+        }
+
+        100% {
+            width: 78%;
+        }
+    }
+
+
+.centro p {
+    transform: translateY(-80px);
+    padding-left: 46%;
+    text-align: justify;
+}
+
+.centro2 p {
+    transform: translateY(-80px);
+    text-align: justify;
+}
+.centro img {
+    float: left;
+    width: 45%;
+    transform: translateY(50px);
+}
+.centro2 img {
+    float: right;
+    width: 50%;
+    padding-left: 1%;
+    transform: translateY(-78px);
+}
+.animales{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   text-align: center;
+
+}
+.container_animals img{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+}
+
+
+@media (max-width: 500px) {
     .escritura {
         margin-left: 14%;
         transform: translateY(-200%);
@@ -540,7 +618,6 @@ video::-webkit-media-controls {
     .letras {
 
         overflow: hidden;
-        font-family: Helvetica, sans-serif;
         white-space: nowrap;
         font-size: 20px;
         color: #ffffff;
@@ -572,13 +649,11 @@ video::-webkit-media-controls {
     transform: translateY(-80px);
     padding-left: 46%;
     text-align: justify;
-    font-family: 'Prompt', sans-serif;
 }
 
 .centro2 p {
     transform: translateY(-80px);
     text-align: justify;
-    font-family: 'Prompt', sans-serif;
 }
 .centro2 img {
     float: right;
@@ -586,19 +661,22 @@ video::-webkit-media-controls {
     padding-left: 1%;
     transform: translateY(-70px);
 }
+
 .animales{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
    text-align: center;
-   padding-top: 5%;
+   
+
 }
 .container_animals img{
-    width: 85%;
-    height: 100px;
+    width: 100%;
+    height: 150px;
     border-radius: 15px;
 }
 
 }
+
 /*Aqui Termina los estilos para la pagina Animales Marinos Extintos*/
 
 /*Aqui comienza los estilos para la pagina de chat*/
@@ -608,11 +686,242 @@ video::-webkit-media-controls {
     color: white;
     background-size: cover;
     background-position: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(55, 177, 199, 0.5);
     background-blend-mode: darken;
 }
 
 .tran{
-    opacity: 0.5;
+    opacity: 0.8;
+    position: center;
+    margin-left: 20%;
   }
 /*Aqui termina los estilos par la pagina chat*/
+
+/* -------------------------- Estilos de la pagina prevencion -----------------------*/ 
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color:#642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#header-prevencion{
+    width: 100%;
+    height: 600px;
+    background: #7F7FD5; 
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(176, 68%, 74%, 0.626), hsla(219, 67%, 72%, 0.607), hsla(240, 51%, 67%, 0.603)), url(./../media/portada-prevencion.jpeg);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(176, 68%, 74%, 0.626), hsla(219, 67%, 72%, 0.607), hsla(240, 51%, 67%, 0.603)), url(./../media/portada-prevencion.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.texto-principal {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-principal h1 {
+    font-size: 50px;
+    color: #fff
+}
+
+.texto-principal h2 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.intro-informacion-ayudar {
+    text-align: justify;
+}
+
+
+
+
+
+/* pagina prevencion tips */
+
+.contenido-textos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-informacion-general {
+    width: 40%;
+}
+
+.informacion-ayuda .contenido-textos-parrafo {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span {
+    background: #4d0686;
+    color: #fff;
+    border-radius: 60%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p {
+    padding: 0px, 0px, 30px, 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+/* Ocean cleanup */
+
+.organization-1 {
+    background-color: #f2f2f2;
+}
+
+.galeria-port {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port {
+    width: 24%;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(1);
+    background: hsla(273, 91%, 27%, 0.7);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover-galeria img {
+    width: 50px;
+}
+
+.hover-galeria p {
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria {
+    transform: scale(0);
+}
+
+.intro-ocean-cleanup p {
+    margin: 16px 29px;
+    text-align: justify;
+}
+
+/* Otras organizaciones */
+
+.cards {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.cards .card {
+    background: #4d0686;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+/* ----------------------   Cómo empezar hoy  -----------------*/
+
+.final-tips {
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.final-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.final-ind {
+    width: 28%;
+    text-align: center;
+}
+
+.final-ind img{
+    width: 90%;
+}
+
+.final-ind h3 {
+    margin: 10px 0;
+}
+
+.final-ind p {
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* ------------------  Aquí termina Prevención  ---------------------- */
