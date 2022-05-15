@@ -44,7 +44,7 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 ![Pagina Principal](/capturas/Apaquarium4.PNG)
 > Puedes Visualizar un video sobre el Oceano Pacifico
 
-### Especies en Mexico
+### Especies en Mexico.
 ![Especies](/capturas/Apaquarium-especies1.PNG)
 > Sub pestaña en la pagina de Aquarium sobre las especies que se encuentran en Mexico.
 
@@ -57,4 +57,21 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 ![Especies](/capturas/Apaquarium-especies4.PNG)
 > Si das click sobre una de las imagenes te mostrara un poco de informacion de la especie.
 
+### Especies en el Mundo.
+![Especies](/capturas/Apaquarium-especiesMundo1.PNG)
+> Sub pestaña de la pagina de Aquarium con informacion de las especies en el mundo.
 
+![Especies](/capturas/Apaquarium-especiesMundo2.PNG)
+> Informacion sobre la importancia de la flora y fauna marina.
+
+![Especies](/capturas/Apaquarium-especiesMundo3.PNG)
+> Informacion sobre la importancia de la flora y fauna marina.
+
+![Especies](/capturas/Apaquarium-especiesMundo4.PNG)
+> Imagenes sobre la flora y fauna marina.
+
+![Especies](/capturas/Apaquarium-especiesMundo5.PNG)
+> Si das click sobre una de las imagenes te mostrara un poco de informacion de la especie.
+
+![Especies](/capturas/Apaquarium-especiesMundo.PNG)
+> Si das click sobre una de las imagenes te mostrara un poco de informacion de la especie.
