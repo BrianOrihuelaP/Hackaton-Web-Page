@@ -34,7 +34,8 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 
 # Fase 4) Arquitectura de la pagina
 * La arquitectura de la pagina se realizo con ayuda de:
-** Azure.
+-- Azure.
+
 
 # Fase 5) Muestras de la pagina 
 ### Pagina Aquarium.
