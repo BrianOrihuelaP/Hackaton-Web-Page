@@ -33,7 +33,7 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 # Fase 5) Muestras de la pagina 
 ### Pagina Aquarium.
 ![Pagina Principal](/capturas/Apaquarium1.PNG)
-> Se muestra la Barra de navegacion para que tu decidas a que pagina quiere ir primero.
+> Se muestra la Barra de navegacion para que tu decidas a que pagina quieres ir primero.
 
 ![Pagina Principal](/capturas/Apaquarium2.PNG)
 > Tambien encontraras algo de Informacion sobre la vida Marina.
