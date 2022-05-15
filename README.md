@@ -75,3 +75,20 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 
 ![Especies](/capturas/Apaquarium-especiesMundo6.PNG)
 > Si das click sobre una de las imagenes te mostrara un poco de informacion de la especie.
+
+### Protege los Oceanos.
+![Especies](/capturas/Apaquarium-prevencion1.PNG)
+> Sub pestaña de la pagina de Aquarium con informacion de como cuidar la vida marina.
+
+![Especies](/capturas/Apaquarium-prevencion2.PNG)
+> Informacion sobre como podemos ayudar.
+
+![Especies](/capturas/Apaquarium-prevencion3.PNG)
+> Informacion sobre como podemos ayudar.
+
+![Especies](/capturas/Apaquarium-prevencion4.PNG)
+> Organizacion que ayuda al medio ambiente marino.
+
+![Especies](/capturas/Apaquarium-prevencion5.PNG)
+> Como podemos empezar a hacer un cambio.
+
