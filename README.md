@@ -29,6 +29,9 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 ![image](https://user-images.githubusercontent.com/48420854/168480094-d472aa3a-d7c5-41c4-bdc2-ff0431e226a9.png)
 
 # Fase 3) Estructura de la pagina
+![Pagina Principal](/capturas/Pagina.jpg)
+> Diagrama que muestra un poco la estructura de la pagina web.
+
 # Fase 4) Arquitectura de la pagina
 # Fase 5) Muestras de la pagina 
 ### Pagina Aquarium.
