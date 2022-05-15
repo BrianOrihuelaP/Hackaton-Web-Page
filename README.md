@@ -2,6 +2,8 @@
 Pagina web diseñada y elaborada con el proposito de dar solución a las problematicas del hack the ocean
 # En que consiste hack the Ocean?
 
+***En crear conciencia en la gente acerca de lo que le hacemos al oceano juntos con los seres vivos en el, por eso en este hackaton desarrollaremos una solucion a una de tantas problematicas que existen.***
+
 # Problematica a resolver
 
 # Solucion
