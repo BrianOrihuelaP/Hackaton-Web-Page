@@ -7,6 +7,9 @@ Pagina web diseñada y elaborada con el proposito de dar solución a las problem
 # Solucion
 - Herramientas:
 - - Azure
+- - Github
+- - Miro
+- - Node Js
 
 
 # Fase 1) LLuvia de ideas con la plataforma [Miro](https://miro.com/es/)
