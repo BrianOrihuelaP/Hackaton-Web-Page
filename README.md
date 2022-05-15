@@ -73,5 +73,5 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 ![Especies](/capturas/Apaquarium-especiesMundo5.PNG)
 > Si das click sobre una de las imagenes te mostrara un poco de informacion de la especie.
 
-![Especies](/capturas/Apaquarium-especiesMundo.PNG)
+![Especies](/capturas/Apaquarium-especiesMundo6.PNG)
 > Si das click sobre una de las imagenes te mostrara un poco de informacion de la especie.
