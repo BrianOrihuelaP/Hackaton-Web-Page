@@ -5,7 +5,8 @@ Pagina web diseñada y elaborada con el proposito de dar solución a las problem
 # Problematica a resolver
 
 # Solucion
-- Herramientas
+- Herramientas:
+- - Azure
 
 
 # Fase 1) LLuvia de ideas con la plataforma [Miro](https://miro.com/es/)
