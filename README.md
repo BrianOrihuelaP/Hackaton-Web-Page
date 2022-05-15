@@ -18,6 +18,10 @@ Una pagina web estática junto con un bot para brindar a los usuarios informaci�
 
 
 # Fase 1) LLuvia de ideas con la plataforma [Miro](https://miro.com/es/)
+En esta fase se muestra la fomentación de ideas con respecto a la problematica. Cada actividad en rojo muestra una pagina dentro de la pagina principal y cada actividad se divide en subtareas más pequeñas con el proposito de mostrar las funciones que cumplen cada pagina. Cada miembro del equipo se le asignó una actividad en especifico para el cumplimiento de los requermientos de los cuales se mecionarán a continuación.<br><br>
+***Lluvia de Ideas para la solución de Hack the Ocean***
+![image](https://user-images.githubusercontent.com/48420854/168479799-a41b5edd-2e7b-4ef4-9f53-99628231bc3f.png)
+
 # Fase 2) Levantamiento de requimientos
 # Fase 3) Buyer Persona
 # Fase 4) Target Audience
