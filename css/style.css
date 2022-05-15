@@ -695,7 +695,6 @@ video::-webkit-media-controls {
     position: center;
     margin-left: 20%;
   }
-<<<<<<< HEAD
 /*Aqui termina los estilos par la pagina chat*/
 
 /* -------------------------- Estilos de la pagina prevencion -----------------------*/ 
@@ -709,7 +708,7 @@ video::-webkit-media-controls {
 }
 
 .titulo{
-    color:#642a73;
+    color:#023E8A;
     font-size: 30px;
     text-align: center;
     margin-top: 60px;
@@ -718,7 +717,7 @@ video::-webkit-media-controls {
 #header-prevencion{
     width: 100%;
     height: 600px;
-    background: #7F7FD5; 
+    background: #023E8A; 
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(176, 68%, 74%, 0.626), hsla(219, 67%, 72%, 0.607), hsla(240, 51%, 67%, 0.603)), url(./../media/portada-prevencion.jpeg);  
     /* Chrome 10-25, Safari 5.1-6 */
@@ -784,7 +783,7 @@ video::-webkit-media-controls {
 }
 
 .contenido-textos h3 span {
-    background: #4d0686;
+    background: #023E8A;
     color: #fff;
     border-radius: 60%;
     display: inline-block;
@@ -838,7 +837,7 @@ video::-webkit-media-controls {
     height: 100%;
     top: 0;
     transform: scale(1);
-    background: hsla(273, 91%, 27%, 0.7);
+    background: #023E8A;
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -870,7 +869,7 @@ video::-webkit-media-controls {
 }
 
 .cards .card {
-    background: #4d0686;
+    background: #0077B6;
     display: flex;
     width: 46%;
     height: 200px;
@@ -926,6 +925,4 @@ video::-webkit-media-controls {
 }
 
 /* ------------------  Aquí termina Prevención  ---------------------- */
-=======
 /*Aqui termina los estilos para la pagina chat*/
->>>>>>> 56b4feea9828b4bde099b4e32e750c24648347b3
