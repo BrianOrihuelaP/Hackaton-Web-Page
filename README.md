@@ -28,6 +28,7 @@ En esta fase se muestra la fomentación de ideas con respecto a la problematica.
 Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utilizar y es en base al la temática del oceano, por lo que el equipo optó por usar la siguiente paleta de colores para el diseño de las paginas.
 ![image](https://user-images.githubusercontent.com/48420854/168480094-d472aa3a-d7c5-41c4-bdc2-ff0431e226a9.png)
 
-# Fase 3) Estrucutura de la pagina
+# Fase 3) Estructura de la pagina
 # Fase 4) Arquitectura de la pagina
 # Fase 5) Muestras de la pagina 
+![Pagina](/capturas/Apaquarium.PNG)
