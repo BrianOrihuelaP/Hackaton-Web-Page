@@ -31,8 +31,15 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 # Fase 3) Estructura de la pagina
 # Fase 4) Arquitectura de la pagina
 # Fase 5) Muestras de la pagina 
+### Pagina Aquarium.
 ![Pagina Principal](/capturas/Apaquarium1.PNG)
 > Se muestra la Barra de navegacion para que tu decidas a que pagina quiere ir primero.
 
 ![Pagina Principal](/capturas/Apaquarium2.PNG)
-> Tambien encontraras algo de Informacion sobre la vida Marina 
+> Tambien encontraras algo de Informacion sobre la vida Marina.
+
+![Pagina Principal](/capturas/Apaquarium3.PNG)
+> Informacion sobre la fauna marina y su importancia.
+
+![Pagina Principal](/capturas/Apaquarium4.PNG)
+> Puedes Visualizar un video sobre el Oceano Pacifico
