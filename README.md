@@ -1,5 +1,8 @@
 # Hackaton-Web-Page
 Pagina web diseñada y elaborada con el proposito de dar solución a las problematicas del hack the ocean
+
+-  Link a la pagina en Azure "https://green-sea-0482ba110.1.azurestaticapps.net"
+
 # En que consiste Hack the Ocean?
 Durante la finalización de LaunchX se nos enseñaron soluciones escalables y optimas con lenguajes de programacion web tanto front end como back end, Hack the Ocean es un reto implementada por el equipo de Innovaccion para demostrar las habilidades aprendidas durante todo el programa.
 <br>
@@ -16,7 +19,6 @@ Una pagina web estática junto con un bot para brindar a los usuarios informaci�
 - - Azure
 - - Github
 - - Miro
-- - Node Js
 - Palette Coloors
 
 # Fase 1) LLuvia de ideas con la plataforma [Miro](https://miro.com/es/)
@@ -37,7 +39,6 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 - - Html.
 - - CSS.
 - - JavaScript
-- - Node Js.
 
 # Fase 5) Muestras de la pagina 
 ### Pagina Aquarium.
@@ -115,3 +116,5 @@ Con [Palette Coolors](https://coolors.co/) buscamos la paleta de colores a utili
 ### Chat-Bot
 ![Chat](/capturas/chatbot0.PNG)
 > En esta pestaña podras realizar algunas preguntas que tengas o tambien si solo quieres saludar al chat.
+
+> Link a la pagina "https://green-sea-0482ba110.1.azurestaticapps.net"
