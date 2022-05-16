@@ -4,7 +4,7 @@ Pagina web diseñada y elaborada con el proposito de dar solución a las problem
 -  Link a la pagina en Azure "https://green-sea-0482ba110.1.azurestaticapps.net"
 
 # En que consiste Hack the Ocean?
-Durante la finalización de LaunchX se nos enseñaron soluciones escalables y optimas con lenguajes de programacion web tanto front end como back end, Hack the Ocean es un reto implementada por el equipo de Innovaccion para demostrar las habilidades aprendidas durante todo el programa.
+Durante la finalización de LaunchX nos enseñaron soluciones escalables y optimas con lenguajes de programacion web tanto front end como back end, Hack the Ocean es un reto implementado por el equipo de Innovaccion para demostrar las habilidades aprendidas durante todo el programa.
 <br>
 La temática que aborda Hack the Ocean es crear conciencia en la gente acerca de lo que le hacemos al oceano juntos con los seres vivos en el, por eso en este hackaton desarrollaremos una solucion a una de tantas problematicas que existen.
 
