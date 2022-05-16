@@ -7029,7 +7029,7 @@ label{
 
   .lema{
     position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
-    transform: translate(136px, -320px);/* MOVER EL FORMULARIO EN X E Y*/
+    transform: translate(136px, -250px);/* MOVER EL FORMULARIO EN X E Y*/
     -webkit-animation: message-frames 1s ease 2s forwards;
             animation: message-frames 1s ease 2s forwards;
     opacity: 0;
@@ -7040,7 +7040,7 @@ label{
   
   .sabiasQue{
     position:absolute;/* POSICION ABSOLUTA PARA QUE ME PERMITA MOVER EL FORMULARIO EN COORDENADAS*/
-    transform: translate(130px, -400px);/* MOVER EL FORMULARIO EN X E Y*/
+    transform: translate(130px, -300px);/* MOVER EL FORMULARIO EN X E Y*/
     -webkit-animation: message-frames 1s ease 7s forwards;
             animation: message-frames 1s ease 7s forwards;
     opacity: 0;
@@ -7048,5 +7048,6 @@ label{
     color: aliceblue;
     font-weight: 100;
   }
+
 }
 
