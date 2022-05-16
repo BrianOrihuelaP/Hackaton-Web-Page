@@ -6,7 +6,7 @@
 /* Estilos navegador */
 
 header{
-    margin-bottom: 20px;
+    margin-bottom: 4%;
 }
 header nav {
     display: flex;
@@ -17,15 +17,15 @@ header .menu {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 15px 20px;
+    padding: 10px 10px;
 }
 
 .brand {
     padding: 10px;
     background-color: #0077B6;
-    margin: 4px;
-    border-radius: 34px 6px;
-    margin-right: 70px;
+    margin: 6px;
+    border-radius: 34px 0px;
+    margin-right: 80px;
     color: azure;
 }
 
@@ -33,16 +33,16 @@ header .menu {
     font-style: italic;
     padding: 6px;
     margin: 6px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .links {
     background-color: #ADE8F4;
     margin: 4px;
     border-radius: 34px 6px;
-    font-weight: 400;
+    font-weight: 200;
     color: #000000;
-    padding: 32px;
+    padding: 13px;
 }
 
 header nav .menu .links {
@@ -61,7 +61,7 @@ header nav .menu .links a {
 
 header nav .menu .links a:hover {
     border-bottom-color: #000000;
-    text-shadow: #a4cedf 4px 2px;
+    font-size: 17px;
 }
 
 header nav .menu .links a.active {
@@ -70,13 +70,12 @@ header nav .menu .links a.active {
 
 @media (max-width: 1280px) {
     .brand {
-        padding: 8px;
-        background-color: #0077B6;
-        margin: 4px;
-        border-radius: 34px 6px;
-        margin-right: 40px;
-        color: azure;
-        width: 16%;
+        padding: 10px;
+    background-color: #0077B6;
+    margin: 6px;
+    border-radius: 34px 0px;
+    margin-right: 80px;
+    color: azure;
     }
 
     .brand h1 {
@@ -90,9 +89,9 @@ header nav .menu .links a.active {
         background-color: #ADE8F4;
         margin: 0px;
         border-radius: 34px 6px;
-        font-weight: 400;
+        font-weight: 200;
         color: #000000;
-        padding: 2%;
+        padding: 13px;
     }
 }
 
@@ -119,7 +118,7 @@ header nav .menu .links a.active {
         background-color: #ADE8F4;
         margin: 0px;
         border-radius: 34px 6px;
-        font-weight: 400;
+        font-weight: 200;
         color: #000000;
         padding: 2%;
         font-size: 14px;
@@ -150,7 +149,7 @@ header nav .menu .links a.active {
         background-color: #ADE8F4;
         margin: 0px;
         border-radius: 34px 6px;
-        font-weight: 400;
+        font-weight: 200;
         color: #000000;
         padding: 2%;
         font-size: 10px;
@@ -310,12 +309,12 @@ video::-webkit-media-controls {
 
 .submenu a {
     background-color: #48CAE4;
-    border-radius: 20px 10px;
-    margin: 10px;
+    border-radius: 14px 0px;
+    margin: 12px;
     color: white;
-    padding: 10px;
+    padding: 6px;
     text-decoration: none;
-    box-shadow: 2px 6px 8px 1px rgba(20, 20, 20, 0.6);
+    box-shadow: 0px 6px 8px 1px rgba(20, 20, 20, 0.6);
     display: block;
     /* Para que no se junte y ocupe su propia linea */
 }
@@ -486,7 +485,7 @@ video::-webkit-media-controls {
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 15%;
-    margin-top: -2%;
+    margin-top: -4%;
 }
 
 .escritura {
@@ -793,7 +792,7 @@ video {
     top: 0;
     left: 0;
     width: 100%;
-    height: 350px;
+    height: 380px;
     object-fit: cover;
     transform: translateY(-7%);
     margin-top: -2%;
@@ -1255,11 +1254,11 @@ video {
 }
 
 .chatBotter {
-    border: 4px solid #0076b6cb;
+    border: 2px solid #0076b6cb;
     border-radius: 26px;
     width: 96%;
     padding: 10px;
-    opacity: .9;
+    margin-top: -4%;
     box-shadow: 12px 12px 2px 1px rgba(21, 91, 182, 0.342);
     background-image: url("https://eskipaper.com/images/ocean-wallpaper-5.jpg");
 }
