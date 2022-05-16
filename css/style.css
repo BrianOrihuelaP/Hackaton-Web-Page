@@ -368,7 +368,7 @@ video::-webkit-media-controls {
     float: left;
     width: 20%;
     border-radius: 20px;
-    margin: 25px;
+    margin-left: 4%;
     margin-top: 90px;
     margin-bottom: 300px;
 }
