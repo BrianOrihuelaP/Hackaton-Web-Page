@@ -1336,13 +1336,19 @@ li {
 
 /* pagina prevencion tips */
 
+.contenedorinformacion-ayudar{
+    margin: 10%;
+}
+
 .contenido-textos {
     display: flex;
     justify-content: space-evenly;
 }
 
 .imagen-informacion-general {
-    width: 40%;
+    margin-top: -3%;
+    width: 28%;
+    border-radius: 5%;
 }
 
 .informacion-ayuda .contenido-textos-parrafo {
