@@ -1,5 +1,6 @@
 # Hackaton-Web-Page
-Pagina web diseñada y elaborada con el proposito de dar solución a las problematicas del hack the ocean
+Pagina web diseñada y elaborada con el proposito de dar solución a las problematicas del hack the ocean 
+##Equipo : Los Borbotones
 
 -  Link a la pagina en Azure "https://green-sea-0482ba110.1.azurestaticapps.net"
 
